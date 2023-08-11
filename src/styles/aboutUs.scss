@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+  }   
+    
+    .about-paragraph {
+        background-color: rgb(200, 216, 223);
+        padding: 20px;
+        box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 25px;
+        opacity: 0; 
+        animation: fadeIn 1s forwards;
+        color: rgb(48, 48, 155);
+        
+    }
+
+        .about-paragraph:nth-child(2) {
+            margin-top: 30px;
+            animation-delay: 0s;
+        }
+        .about-paragraph:nth-child(3) {
+            animation-delay: 1s; 
+        }
+            .about-paragraph:nth-child(4) {
+                animation-delay: 2s; 
+            }
+
+
+                @keyframes fadeIn {
+                    to {
+                    opacity: 1; 
+                    }
+                }
